@@ -23,7 +23,7 @@ export {
   setup,
 } from "https://deno.land/std/log/mod.ts";
 export { MongoClient, ObjectId } from "https://deno.land/x/mongo/mod.ts";
-export { oakCors } from "https://raw.githubusercontent.com/tajpouria/cors/master/mod.ts";  // Currently using fork version to support deno 1.4.0
+export { oakCors } from "https://raw.githubusercontent.com/tajpouria/cors/master/mod.ts"; // Currently using fork version to support deno 1.4.0
 export { validateJwt } from "https://deno.land/x/djwt/validate.ts";
 export type {
   Jose,

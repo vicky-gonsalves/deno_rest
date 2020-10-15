@@ -3,7 +3,7 @@ import * as yup from "https://cdn.skypack.dev/yup";
 export {
   AES,
   encode,
-} from "https://raw.githubusercontent.com/vicky-gonsalves/god_crypto/fix-imports-not-use-as-values/mod.ts"; // Currently using fork version to support deno 1.4.0
+} from "https://deno.land/x/god_crypto/mod.ts";
 export {
   Application,
   Router,

@@ -30,19 +30,19 @@ This is a Boilerplate project to create Deno RESTful API using oak and deno_mong
 ### Install / Upgrade
 **Using Deno:**
 ```
-deno upgrade --version 1.4.0
+deno upgrade --version 1.4.6
 ```
 
 
 **With Shell:**
 ```
-curl -fsSL https://deno.land/x/install/install.sh | sh -s v1.4.0
+curl -fsSL https://deno.land/x/install/install.sh | sh -s v1.4.6
 ```
 
 
 **With PowerShell:**
 ```
-$v="1.4.0"; iwr https://deno.land/x/install/install.ps1 -useb | iex
+$v="1.4.6"; iwr https://deno.land/x/install/install.ps1 -useb | iex
 ```
 
 

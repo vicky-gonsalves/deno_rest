@@ -238,7 +238,7 @@ class UserService {
    */
   public static async removeUser(id: string): Promise<number | Error> {
     const user: (UserSchema | undefined) = await User.findOne(
-      { _id: ObjectId(id) },
+      { _id: new ObjectId(id) },
     );
     if (!user) {
       log.error("User not found");
@@ -251,7 +251,7 @@ class UserService {
         type: "NotFound",
       });
     }
-    const deleteCount: number = await User.deleteOne({ _id: ObjectId(id) });
+    const deleteCount: number = await User.deleteOne({ _id: new ObjectId(id) });
     if (deleteCount) {
       const { name, email, role, isVerified, isDisabled, createdAt, __v } =
         user;

@@ -1,5 +1,9 @@
 import type { ObjectId } from "../deps.ts";
 
+export interface VerificationTokenStructure {
+  verify: { expires: Date; token: string };
+}
+
 export interface TokenStructure {
   access: { expires: Date; token: string };
   refresh: { expires: Date; token: string };
